@@ -105,24 +105,25 @@
         margin-block-end: 1em;
         margin-inline-start: 0px;
         margin-inline-end: 0px;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
       }
       .abot {
         margin: 20px;
         padding: 10px;
       }
-      .gambar {
+      #gambar {
         display: flex;
         position: absolute;
         border-radius: 20px;
         top: 160px;
         left: 900px;
         width: 300px;
-        filter: drop-shadow(2px 5px 5px rgba(18, 1, 173, 0.58));
+        
       }
       button{
         display: flex;
-        top: 450px;
-        left: 30px;
+        top: 470px;
+        left: 60px;
         position: absolute;
         align-items: center;
         text-align: center;
@@ -138,14 +139,14 @@
   <body >
     <div class="navbar">
       <a class="navbar-brand" href="#">TWIst</a>
-
     </div>
     <div class="abot">
       <p class="salam">Hello, Nama saya</p>
       <h1 class="nama">
-        ADI NUGROHO
+        Adi Nugroho
         <br />
-        Saya Mahasiswa Unimus
+        <br/>
+        Saya Mahasiswa UNIMUS
       </h1>
       <div class="keterangan">
         <p class="text-justify">
@@ -159,11 +160,11 @@
         </p>
       </div>
     </div>
-    <img class="gambar" src="poto.jpg" alt="ADI" />
+    <img id="gambar" class="align-middle cursor-pointer hover:scale-110 transition delay-150 duration-300 ease-in-out " src="poto.jpg" alt="ADI" />
     <center>
     <button
       type="button"
-      class="p-4 m-2.5 w-64 cursor-help border-sky-700/60 border-2 rounded-lg  bg-gradient-to-r  to-blue transition ease-in-out delay-150   hover:from-blue-900/100 -translate-y-1 hover:scale-110 hover: duration-300 "
+      class="  animate-bounce px-6 p-4 cursor-help border-sky-700/60 border-2 rounded-lg  bg-gradient-to-r  to-blue transition ease-in-out delay-150   hover:from-blue-900/100 -translate-y-1 hover:scale-110 hover: duration-300 "
     ><a href="home.html">Biodata</a>
     </button>
     
