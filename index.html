@@ -87,11 +87,12 @@
           Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
           Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
         line-height: 1.75rem;
-        font-size: 1.25rem;
+        font-size: 2rem;
         font-weight: 800;
         letter-spacing: 0.025em;
+        margin: 20px;
         --tw-text-opacity: 1;
-        color: rgb(209 213 219 / var(--tw-text-opacity));
+        color: rgb(125 211 252);
       }
       .keterangan {
         margin-top: 1rem;
@@ -110,21 +111,31 @@
         padding: 10px;
       }
       .gambar {
-        border-radius: 1rem;
-        width: 200px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        max-width: 100%;
-        height: auto;
+        display: flex;
+        position: absolute;
+        border-radius: 20px;
+        top: 160px;
+        left: 900px;
+        width: 300px;
         filter: drop-shadow(2px 5px 5px rgba(18, 1, 173, 0.58));
       }
       button{
-        display: block;
+        display: flex;
+        top: 450px;
+        left: 30px;
+        position: absolute;
+        align-items: center;
+        text-align: center;
+      }
+      button a{
+        display: inline-block;
+        color: rgb(241 245 249);
+        font-weight: 900;
+        vertical-align: middle;
       }
     </style>
   </head>
-  <body  class="text-black dark:text-white bg-blue dark:bg-gray-700 ">
+  <body >
     <div class="navbar">
       <a class="navbar-brand" href="#">TWIst</a>
 
@@ -138,12 +149,12 @@
       </h1>
       <div class="keterangan">
         <p class="text-justify">
-          Sebagai Mahasiswa Unimus yang bersemangat, saya memiliki minat yang
-          kuat dalam membangun antarmuka pengguna yang dinamis dan menarik
-          menggunakan html dan css. Dalam peran saya saat ini sebagai mahasiswa,
-          saya mengkhususkan diri dalam menciptakan desain visual yang
-          menakjubkan yang tidak hanya mudah dilihat, tetapi juga dibangun
-          dengan standar kualitas kode tertinggi. untuk memberikan pengalaman
+          Sebagai Mahasiswa Unimus yang bersemangat, saya memiliki<br> minat yang
+          kuat dalam membangun antarmuka pengguna yang <br> dinamis dan menarik
+          menggunakan html dan css. Dalam peran <br>saya saat ini sebagai mahasiswa,
+          saya mengkhususkan diri <br>dalam menciptakan desain visual yang
+          menakjubkan yang tidak <br>hanya mudah dilihat, tetapi juga dibangun
+          dengan standar kualitas<br> kode tertinggi. untuk memberikan pengalaman
           pengguna yang mulus.
         </p>
       </div>
@@ -152,42 +163,10 @@
     <center>
     <button
       type="button"
-      class="p-4 m-2.5 w-64 cursor-help border-sky-700/60 border-2 rounded-lg  bg-gradient-to-r  to-blue transition ease-in-out delay-150   hover:from-blue-900/50 -translate-y-1 hover:scale-110 hover: duration-300 "
-    ><a href="home.html"
-    type="text"
-    class="text-lg italic text-white  ">Biodata</a>
+      class="p-4 m-2.5 w-64 cursor-help border-sky-700/60 border-2 rounded-lg  bg-gradient-to-r  to-blue transition ease-in-out delay-150   hover:from-blue-900/100 -translate-y-1 hover:scale-110 hover: duration-300 "
+    ><a href="home.html">Biodata</a>
     </button>
-    <button
-      id="theme-toggle"
-      type="button"
-      class="p-4 m-2.5 w-64 cursor-help border-sky-700/60 border-2 rounded-lg  bg-gradient-to-r  to-blue transition ease-in-out delay-150   hover:from-blue-900/50 -translate-y-1 hover:scale-110 hover: duration-300 " hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
-    >
-      <svg
-        id="theme-toggle-dark-icon"
-        class="hidden w-9 h-9"
-        fill="currentColor"
-        viewBox="0 0 20 20"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
-        ></path>
-      </svg>
-      <svg
-        id="theme-toggle-light-icon"
-        class="hidden w-9 h-9"
-        fill="currentColor"
-        viewBox="0 0 20 20"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
-          fill-rule="evenodd"
-          clip-rule="evenodd"
-        ></path>
-      </svg>
-    </button>
-<h3>STUDY</h3>
+    
 
 
 
