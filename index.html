@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>im twist</title>
+    <title>im'twist</title>
     <script>
       tailwind.config = {
         darkMode: "class",
@@ -14,7 +14,7 @@
             colors: {
               clifford: "#da373d",
               spacing: {
-        '5px': '5px',
+         '5px': '5px',
               }
             },
           },
@@ -147,6 +147,67 @@
         --tw-text-opacity: 1;
         color: rgb(9 204 169 / var(--tw-text-opacity));
       }
+      footer {
+  background-color: #070041;
+  color: #fff;
+  padding: 50px 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex-basis: 40%;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  border-top: 1px solid #555;
+  padding-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
     </style>
   </head>
   <body >
@@ -164,11 +225,11 @@
       <div class="keterangan">
         <p class="text-justify">
           Sebagai Mahasiswa Unimus yang bersemangat, saya memiliki<br> minat yang
-          kuat dalam membangun antarmuka pengguna yang <br> dinamis dan menarik
-          menggunakan html dan css. Dalam peran <br>saya saat ini sebagai mahasiswa,
-          saya mengkhususkan diri <br>dalam menciptakan desain visual yang
-          menakjubkan yang tidak <br>hanya mudah dilihat, tetapi juga dibangun
-          dengan standar kualitas<br> kode tertinggi. untuk memberikan pengalaman
+          kuat dalam membangun antarmuka pengguna yang <br>  dinamis dan menarik
+          menggunakan html dan css. Dalam peran<br> saya saat ini sebagai mahasiswa,
+          saya mengkhususkan diri <br> dalam menciptakan desain visual yang
+          menakjubkan yang tidak <br> hanya mudah dilihat, tetapi juga dibangun
+          dengan standar kualitas<br>  kode tertinggi. untuk memberikan pengalaman
           pengguna yang mulus.
         </p>
       </div>
@@ -177,7 +238,7 @@
     <center>
     <button
       type="button"
-      class="  animate-bounce px-6 p-4 bg-sky-600 cursor-help border-sky-700/60 border-2 rounded-lg  bg-gradient-to-r   transition ease-in-out delay-150   hover:bg-blue-950  hover:scale-110 hover: duration-100 "
+      class="animate-bounce px-6 p-4 bg-sky-600 cursor-help border-sky-700/100 border-2 rounded-lg  bg-gradient-to-r   transition ease-in-out delay-150   hover:bg-blue-950  hover:scale-110 hover: duration-10 "
     ><a href="home.html">Biodata</a>
     </button>
     <div class="atur">
@@ -187,8 +248,29 @@
      <div class="flex align-center items-cnter justify-center gap-x-20 ">
        <img  class="align-middle cursor-pointer rounded-lg hover:scale-110 transition delay-150 duration-300 ease-in-out w-32 h-28 py-0.5" src="html.jpg" alt="html">
        <img  class="align-middle cursor-pointer rounded-lg hover:scale-110 transition delay-150 duration-300 ease-in-out w-32 h-28 py-0.5" src="css.png" alt="css">
+     </div>
     </div>
-    </div>
+    <footer>
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="footer-column">
+            <h3>About web</h3>
+            <p>Web ini dibuat untuk mengenal salah satu hamasiswa dari universitas muhammadiyah semarang</p>
+          </div>
+          <div class="footer-column">
+            <h3>Follow Us</h3>
+            <ul>
+              <li><a href="#">Tiktok</a></li>
+              <li><a href="#">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 Twist. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    
     <script>
       var themeToggleDarkIcon = document.getElementById(
         "theme-toggle-dark-icon"
