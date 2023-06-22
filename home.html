@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="man.css">
-    <title>Document</title>
+    <title>BIO</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -32,30 +32,18 @@
       }
     </script>
     <style>
-        button p{
-        width: 200px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        max-width: 100%;
-        height: auto;
-        
-      }
-      P{
-        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-          Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
-          Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-        line-height: 1.75rem;
-        font-size: 1.25rem;
-        font-weight: 800;
-        letter-spacing: 0.025em;
-       
-      }
+     button{
+      display: flex;
+      position: absolute;
+      top: 0 ;
+      
+     }
         
     </style>
   </head>
   <body class="text-black dark:text-white bg-white dark:bg-gray-700 ">
     <center>
+      <img src="BIODATA.jpg" alt="">
     
     <button
       id="theme-toggle"
@@ -87,7 +75,6 @@
         ></path>
       </svg>
     </button>
-    <p class="text-xls">COMING SOON</p>
     <script>
       // On page load or when changing themes, best to add inline in `head` to avoid FOUC
       var themeToggleDarkIcon = document.getElementById(
