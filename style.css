@@ -4,7 +4,6 @@ body {
   font-family: Arial, sans-serif;
   background-color: #34353a;
 }
-
 .navbar {
   position: fixed;
   top: 0;
@@ -38,11 +37,12 @@ body {
 .nav-links li a {
   text-decoration: none;
   font-weight: 800;
-  color: #ffffff;
+  color: #fe7702;
   transition: 0.3s ease;
 }
 .nav-links li a:hover {
-  color: #fe7702;
+  color: #ffffff;
+  filter: drop-shadow(0px 2px 9px rgb(255, 102, 0));
 }
 #hal1 {
   display: flex;
@@ -58,7 +58,7 @@ body {
 .elemen {
   transform: translateY(50px);
   opacity: 0;
-  transition: all 0.8s ease;
+  transition: all 0.9s ease;
 }
 .tampil {
   transform: translateY(0px);
@@ -99,8 +99,10 @@ body {
   width: 30px;
   text-decoration: none;
   font-weight: 600;
-  color: #fe7702;
+  color: #ffffff;
   border-color: #fe7702;
+  background-color: #fe7702;
+  filter: drop-shadow(0px 2px 25px rgb(255, 102, 0));
   border-width: 2px;
   border-radius: 5px;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
@@ -110,19 +112,16 @@ body {
   transition: 0.3s ease;
 }
 #tombol a:hover {
-  --tw-text-opacity: 1;
-  color: #ffffff;
-  background-color: #fe7702;
-  filter: drop-shadow(0px 2px 25px rgb(255, 102, 0));
+  color: #fe7702;
+  background-color: transparent;
+  filter: none;
+  border-color: transparent;
 }
 .poto img {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 300px;
-}
-.poto img:hover {
-  filter: 0 25px 50px -12px rgb(180, 180, 180);
 }
 #hal2 {
   display: block;
@@ -193,10 +192,7 @@ body {
   padding: 30px;
   gap: 90px;
 }
-.footer-link {
-  display: flex;
-  gap: 10px;
-}
+
 .footer a {
   display: block;
   color: #fe7702;
