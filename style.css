@@ -164,23 +164,35 @@ body {
   background-color: #2e2f34;
   transition: 0.3s ease;
 }
-.sertif {
+.halaman3 {
+  display: grid;
+}
+.skill {
   display: flex;
-  padding: 20px;
-  margin: 20px;
-  align-items: center;
+  justify-content: space-around;
+  margin: 30px;
+  top: 50px;
+}
+.isi {
+  display: grid;
   justify-content: center;
+  width: 200px;
+  height: 250px;
+  border-radius: 30px;
+  background-color: #c8c6c631;
 }
-.sertif img {
-  gap: 1rem;
-  width: 400px;
-  padding: 20px;
-  transition: 0.3s ease;
-  filter: none;
+.isi:hover {
+  background-color: #34353a;
 }
-.sertif img:hover {
-  filter: drop-shadow(0 25px 25px rgba(230, 85, 28, 0.795));
-  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+.dalam {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dalam h3 {
+  margin-top: 8px;
+  color: #c8c6c6;
+  font-weight: 800;
 }
 .footer {
   display: flex;
@@ -192,7 +204,6 @@ body {
   padding: 30px;
   gap: 90px;
 }
-
 .footer a {
   display: block;
   color: #fe7702;
