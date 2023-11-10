@@ -1,1 +1,22 @@
+body {
+  background-color: #2e2f34;
+}
+.sertif {
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.sertif img {
+  gap: 1rem;
+  width: 400px;
+  padding: 20px;
+  transition: 0.3s ease;
+  filter: none;
+}
+.sertif img:hover {
+  filter: drop-shadow(0 25px 25px rgba(230, 85, 28, 0.795));
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
 
