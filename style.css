@@ -174,8 +174,9 @@ body {
   top: 50px;
 }
 .isi {
-  display: grid;
+  display: flex;
   justify-content: center;
+  align-items: center;
   width: 200px;
   height: 250px;
   border-radius: 30px;
@@ -183,11 +184,18 @@ body {
 }
 .isi:hover {
   background-color: #34353a;
+  border-width: 2px;
+  border-color: #c8c6c6;
 }
 .dalam {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
+}
+.dalam img {
+  display: flex;
+  align-items: center;
+  margin: 15px;
 }
 .dalam h3 {
   margin-top: 8px;
