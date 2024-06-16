@@ -1,0 +1,230 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: #ffffff;
+  padding: 15px 0;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+}
+.logo img:hover {
+  filter: drop-shadow(0px 2px 25px rgb(214, 117, 6));
+}
+.nav-links {
+  list-style: none;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    Liberation Mono, Courier New, monospace;
+  display: flex;
+}
+.nav-links li {
+  margin: 0 15px;
+}
+.nav-links li a {
+  text-decoration: none;
+  font-weight: 800;
+  color: #fe7702;
+  transition: 0.3s ease;
+}
+.nav-links li a:hover {
+  color: #0f0f0f;
+  filter: drop-shadow(0px 2px 9px rgb(255, 102, 0));
+}
+.halaman1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+.halaman1 img {
+  width: 350px;
+  transition: 0.3s ease;
+  transform: skewY(12deg);
+}
+.halaman1 IMG:hover {
+  transition: 0.3s ease;
+  transform: none;
+  filter: drop-shadow(0px 2px 15px rgb(255, 102, 0));
+}
+.nama {
+  padding: 70px;
+  justify-content: center;
+  align-items: center;
+}
+.nama h1 {
+  box-sizing: inherit;
+  font-size: 50px;
+  padding: 10px;
+  line-height: 1.75rem;
+  letter-spacing: 0.025em;
+  font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-weight: 800;
+}
+.nama p {
+  padding: 10px;
+  max-width: 400px;
+  text-align: justify;
+  text-wrap: wrap;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+.button {
+  display: flex;
+}
+.tombol {
+  margin-top: 20px;
+  padding: 10px;
+}
+.tombol a {
+  padding: 10px;
+  width: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #ffffff;
+  border-color: #fe7702;
+  background-color: #fe7702;
+  border-width: 2px;
+  border-radius: 5px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    Liberation Mono, Courier New, monospace;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  transition: 0.3s ease;
+}
+.tombol a:hover {
+  filter: drop-shadow(0px 2px 9px rgb(255, 102, 0));
+}
+.halaman2 {
+  margin-top: 20vh;
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(halaman2.png);
+}
+
+.text {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.75rem;
+  line-height: 1;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+.kesan {
+  display: block;
+  padding-top: 8rem;
+}
+.kesan a {
+  padding: 10px;
+  width: 40px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #ffffff;
+  border-color: #fe7702;
+  background-color: #fe7702;
+  border-width: 2px;
+  border-radius: 60px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    Liberation Mono, Courier New, monospace;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  transition: 0.3s ease;
+}
+.kesan a:hover {
+  padding: 10px;
+  width: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #ffffff;
+  border-color: #fe7702;
+  background-color: #fe7702;
+  border-width: 2px;
+  border-radius: 5px;
+  filter: drop-shadow(0px 2px 9px rgb(255, 102, 0));
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    Liberation Mono, Courier New, monospace;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  transition: 0.3s ease;
+}
+.halaman3 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.halamanpenutup {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+.halamanpenutup img {
+  width: 350px;
+  transition: 0.3s ease;
+}
+.halamanpenutup IMG:hover {
+  transition: 0.3s ease;
+  filter: drop-shadow(0px 2px 15px rgb(255, 102, 0));
+}
+.judul {
+  padding: 70px;
+  justify-content: center;
+  align-items: center;
+}
+.judul h1 {
+  box-sizing: inherit;
+  font-size: 50px;
+  padding: 10px;
+  line-height: 1.75rem;
+  letter-spacing: 0.025em;
+  font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-weight: 800;
+}
+.judul p {
+  padding: 10px;
+  max-width: 400px;
+  text-wrap: wrap;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+.elemen {
+  transform: translateY(50px);
+  opacity: 0;
+  transition: all 0.9s ease;
+}
+.tampil {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.hidden {
+  display: none;
+}
