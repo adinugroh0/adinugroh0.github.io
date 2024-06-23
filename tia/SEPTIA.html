@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Septiaa</title>
+  </head>
+  <body style="padding: 0; margin: 0">
+    <video
+      style="
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+      "
+      autoplay
+      loop
+      muted>
+      <source src="vidio.mp4" type="video/mp4" />
+      Browser Anda tidak mendukung pemutar video.
+    </video>
+    <audio style="display: none" id="audioPlayer" controls autoplay>
+      <source src="penjagahati.mp3" type="audio/mpeg" />
+      Browser Anda tidak mendukung pemutar audio.
+    </audio>
+    <div
+      style="
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        color: aliceblue;
+        font-weight: 700;
+      ">
+      <p>
+        Creative <br />
+        Story
+      </p>
+      <p>Crete to ANU</p>
+      <p>
+        Terimakasih <br />
+        Septiaa
+      </p>
+    </div>
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 60px;
+      ">
+      <img style="width: 250px" src="Group 2.png" alt="" />
+    </div>
+    <div
+      style="
+        display: flex;
+        margin-top: 80px;
+        justify-content: space-between;
+        padding: 10px;
+      ">
+      <div>
+        <img
+          style="width: 80px; border-radius: 10px"
+          src="tia cun.png"
+          alt="" />
+      </div>
+      <div>
+        <img style="width: 80px; border-radius: 10px" src="hah.png" alt="" />
+      </div>
+      <div>
+        <img style="width: 80px; border-radius: 10px" src="heh.png" alt="" />
+      </div>
+    </div>
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        color: aliceblue;
+        font-weight: 700;
+      ">
+      <p>Jangan marah yaa hehehehe</p>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var audio = document.getElementById("audioPlayer");
+        audio.play();
+      });
+    </script>
+  </body>
+</html>
